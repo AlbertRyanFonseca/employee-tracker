@@ -1,41 +1,41 @@
 const moreQuestions = {
-    departQuestions: [
+    deptQuestions: [
         {
             type: "input",
-            name: "roleNameInptVal",
+            name: "roleNameInputVal",
             message: "What is the name of the new Role?",
         },
         {
             type: "input",
-            name: "roleSalInptVal",
+            name: "roleSalaryInputVal",
             message: "What is the salary for the new Role?",
         },
         {
             type: "input",
-            name: "roleDeptInptVal",
+            name: "roleDeptInputVal",
             message:
                 "What is the department ID of the new Role? (see table above)",
         },
     ],
-    emplQuestions: [
+    empQuestions: [
         {
             type: "input",
-            name: "emplFNInptVal",
+            name: "empFNInputVal",
             message: "What is the employee's first name?",
         },
         {
             type: "input",
-            name: "emplLNInptVal",
+            name: "empLNInputVal",
             message: "What is the employee's last name?",
         },
         {
             type: "input",
-            name: "emplRoleInptVal",
+            name: "empRoleInputVal",
             message: "What is the employee's role id? (see table above)",
         },
         {
             type: "input",
-            name: "emplManInptVal",
+            name: "empManInputVal",
             message: "Who is the employee's manager? (input by manager's id)",
         },
     ],
